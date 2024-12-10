@@ -1,4 +1,5 @@
 package Interface;
 
-public interface GenericInterface {
+public interface GenericInterface<T> {
+void print(T value);
 }
